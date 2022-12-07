@@ -1,4 +1,4 @@
-SELECT * from animals WHERE name LIKE '%mon%'
+SELECT * from animals WHERE name LIKE '%mon'
 SELECT * from animals WHERE date_of_birth BETWEEN '01-01-2016' AND '01-01-2019';
 SELECT * from animals WHERE neutered IS true AND escape_attempts < 3;
 SELECT date_of_birth from animals WHERE name IN ('Agumon','Pikachu');
