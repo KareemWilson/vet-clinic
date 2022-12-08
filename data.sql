@@ -96,3 +96,17 @@ INSERT INTO animals (
     neutered,
     escape_attempts
 ) VALUES (11, 'Ditto', '14-05-2022', 22, true, 4);
+
+/* insert data into owner table */ 
+
+INSERT INTO owners (full_name, age) VALUES ('Sam Smith', 34);
+INSERT INTO owners (full_name, age) VALUES ('Jennifer Orwell', 19);
+INSERT INTO owners (full_name, age) VALUES ('Bob', 45);
+INSERT INTO owners (full_name, age) VALUES ('Melody Pond', 77);
+INSERT INTO owners (full_name, age) VALUES ('Dean Winchester', 14);
+INSERT INTO owners (full_name, age) VALUES ('Jodie Whittaker', 38);
+
+/* insert data into species table */ 
+
+INSERT INTO species (name) VALUES ('Digimon');
+INSERT INTO species (name) VALUES ('Pokimon');
