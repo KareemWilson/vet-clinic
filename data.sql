@@ -33,3 +33,66 @@ INSERT INTO animals (
     neutered,
     escape_attempts
 ) VALUES (4, 'Devimon', '12-05-2017', 11, true, 5);
+
+INSERT INTO animals (
+    id,
+    name,
+    date_of_birth,
+    weight_kg,
+    neutered,
+    escape_attempts
+) VALUES (5, 'Charmander', '08-02-2020', -11, false, 0);
+
+INSERT INTO animals (
+    id,
+    name,
+    date_of_birth,
+    weight_kg,
+    neutered,
+    escape_attempts
+) VALUES (6, 'Plantmon', '15-11-2021', -5.7, true, 2);
+
+INSERT INTO animals (
+    id,
+    name,
+    date_of_birth,
+    weight_kg,
+    neutered,
+    escape_attempts
+) VALUES (7, 'Squirtle', '02-04-1993', -12.13, false, 3);
+
+INSERT INTO animals (
+    id,
+    name,
+    date_of_birth,
+    weight_kg,
+    neutered,
+    escape_attempts
+) VALUES (8, 'Angemon', '12-06-2005', -45, true, 1);
+
+INSERT INTO animals (
+    id,
+    name,
+    date_of_birth,
+    weight_kg,
+    neutered,
+    escape_attempts
+) VALUES (9, 'Boarmon', '07-06-2005', 20.4, true, 7);
+
+INSERT INTO animals (
+    id,
+    name,
+    date_of_birth,
+    weight_kg,
+    neutered,
+    escape_attempts
+) VALUES (10, 'Blossom', '13-10-1998', 17, true, 3);
+
+INSERT INTO animals (
+    id,
+    name,
+    date_of_birth,
+    weight_kg,
+    neutered,
+    escape_attempts
+) VALUES (11, 'Ditto', '14-05-2022', 22, true, 4);
