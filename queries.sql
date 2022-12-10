@@ -154,7 +154,7 @@ SELECT a.name AS "Animals", vets.name AS "Vet"
     ON v.vet_id = vets.id 
     WHERE vets.name = 'Stephanie Mendez' 
     AND date_of_visit 
-    BETWEEN '2020-04-01' AND '2020-08-30' 
+    BETWEEN '01-04-2020' AND '30-08-2020' 
     GROUP BY a.name, vets.name;
 
 -- What animal has the most visits to vets?
@@ -186,7 +186,7 @@ SELECT vets.name AS "Vet",a.name AS "Animal", date_of_visit
     ON v.animal_id = a.id 
     LEFT JOIN vets 
     ON v.vet_id = vets.id 
-    WHERE vets.name = 'Maisy Smith' 
+    WHERE vets.name = 'Jack Harkness' 
     ORDER BY date_of_visit 
     LIMIT 1;
 
