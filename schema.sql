@@ -47,7 +47,7 @@ CREATE TABLE specializations (
     species_id int REFERENCES species (id)
 );
 
--- Create visits table. +++++++
+-- Create visits table.
 CREATE TABLE visits(
     animal_id int REFERENCES animals (id),
     vet_id int REFERENCES vets (id),
