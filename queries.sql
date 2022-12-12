@@ -217,3 +217,11 @@ SELECT vets.name AS "Vet", species.name AS "Specie", COUNT(*)
     GROUP BY vets.name, species.name 
     LIMIT 1;
 
+-----------------------------------------------------------------------
+
+
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+
+explain analyse SELECT * FROM visits where vet_id = 2;
+
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';

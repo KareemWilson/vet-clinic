@@ -54,4 +54,12 @@ CREATE TABLE visits(
     date_of_visit date
 );
 
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
+
+-- Indexing animals on visits
+create index animals_id_asc on visits(animal_id asc);
+-- Indexing vets_id on visits
+create index vet_id_asc on visits(vet_id asc);
+-- Indexing email on owners
+create index email_asc on owners(email asc);
