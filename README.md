@@ -37,6 +37,10 @@
 
 > **Vet-Clinic-db** is a database uses relational database management system 'RDBMS' (PostgresQL), typed by Structured Query Language 'SQL', and it provides the Vet-Clinic web app with required data.
 
+**Here is the diagram of database using [Lucid chart](locid.app)**
+![database diagram](https://user-images.githubusercontent.com/86894895/207364164-9dc96b4d-9086-45fc-971b-546cc12d4d8e.png)
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
